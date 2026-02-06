@@ -1,0 +1,12 @@
+{
+  "name": "jsonplaceholder-bdd",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cucumber-js --require step_definitions/**/*.js --require support/**/*.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "axios": "^1.6.0",
+    "chai": "^4.3.7"
+  }
+}
